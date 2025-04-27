@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="Images/Logo.jpg" sizes="128x128">
+  <title>Home Decorators</title>
+</head>
+
+<body>
+  <section class="container-fluid">
+    <!-- <header> -->
+      <div class="container-fluid bg-black py-1">
+        <div class="container-fluid px-3" id="topHeader">
+          <div class="row topHeaderClass align-items-center">
+            <div class="contactSection col-8">
+              <div class="row align-items-center">
+                <div class="col-12 col-md-4 col-xl-2">
+                  <a href="tel:62274889767" class="text-light"><i class="fa fa-phone"></i> &nbsp;+62274889767</a>
+                </div>
+                <div class="col-12 col-md-7 col-xl-4">
+                  <a href="mailto:homedecor@gmail.com" class="text-light"><i class="fa fa-envelope-o"></i> &nbsp;homedecor@gmail.com</a>
+                </div>
+              </div>
+            </div>
+            <div class="social-icons text-end col-4">
+              <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg bg-white shadow sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-3" href="index.html">
+            <img src="Images/Logo.jpg" alt="" class="img-fluid logoImg">
+          </a>
+      
+          <!-- Toggle button for Offcanvas, will show on mobile/tablet -->
+          <button class="navbar-toggler me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <!-- Offcanvas for Mobile/Tablet -->
+          <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title text-white" id="mobileMenuLabel">Menu</h5>
+              <button type="button" class="btn text-white ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">
+                <i class="fa-solid fa-xmark fa-lg"></i>
+              </button>                        
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutUs.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="blogs.html">Blogs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contactUs.html">Contact Us</a>
+                </li>
+              </ul>
+      
+              <!-- Simple search for mobile/tablet -->
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
+          </div>
+      
+          <!-- Regular navbar for desktop (hidden on mobile/tablet) -->
+          <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutUs.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="blogs.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactUs.html">Contact Us</a>
+              </li>
+            </ul>
+      
+            <!-- Animated search only on large screens -->
+            <div class="search-wrapper position-relative me-3">
+              <form class="search-form d-flex align-items-center" role="search">
+                <input class="form-control search-input" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success search-btn" type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- </header> -->
+    <main>
+      <section class="container-fluid blogSection my-4">
+        <section class="container">
+          <div class="row justify-content-center align-items-center px-3">
+            <div class="col-12 col-md-6">
+              <div class="blogDesc" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500" data-aos-offset="0">
+                <div class="text-center">
+                  <img src="Images/design-set1.jpg" alt="" class="img-fluid designSetImg">
+                </div>
+                <h1 class="mb-4">Wall Paneling Design Ideas for Your Home in 2024</h1>
+                <p>Wall paneling, a timeless and versatile design element, has become increasingly popular in transforming……</p>
+                <div class="readBtnClass my-3">
+                  <a href="#" class=""><span>Read More</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="imgSection row">
+                <div class="col-6 firstImg">
+                  <div>
+                    <img src="Images/blog11.jpg" alt="" class="img-fluid rounded-5">
+                  </div>
+                  <div>
+                    <img src="Images/blog12.jpg" alt="" class="img-fluid rounded-5">
+                  </div>
+                </div>
+                <div class="col-6 secondImg">
+                  <div>
+                    <img src="Images/blog13.jpg" alt="" class="img-fluid rounded-5">
+                  </div>
+                  <div>
+                    <img src="Images/blog14.jpg" alt="" class="img-fluid rounded-5">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="container-fluid articleSection my-4">
+        <section class="container">
+          <div class="row justify-content-center align-items-center px-3">
+            <div class="col-12 col-xl-10">
+              <h1 class="mb-4">Featured Articles</h1>
+              <p>Blogs and articles created for customer education and understanding ensure that our clients are well-informed about every aspect of their interior investment, empowering them to make informed decisions about our services.</p>
+            </div>
+            <div class="col-12 col-xl-2">
+              <div class="btnClass">
+                <a href="#"><span>make my interiors</span></a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="container-fluid blogSection my-4">
+        <section class="container">
+          <div class="row justify-content-center align-items-center px-3">
+            <div class="col-12 col-md-6">
+              <div class="blogDesc">
+                <h1 class="mb-4">Budget Friendly Interior Design with - <br> Make My Interiors</h1>
+                <p>Home Interior Designer: The misconception that a stylish living room necessitates a hefty budget is about to be dispelled. In this comprehensive guide</p>
+               <div class="row justify-content-center align-items-center my-4">
+                <div class="col-6">
+                  <div class="btnClass">
+                    <a href="contactUs.html"><span>Contact Us</span></a>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="readBtnClass">
+                    <a href="#"><span>Read More</span></a>
+                  </div>
+                </div>
+               </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000" data-aos-delay="500" data-aos-offset="0">
+                <img src="Images/blog15.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-12 mt-5">
+              <div class="row align-items-center justify-content-center">
+                <h6 class="text-dark">AS FEATURED IN :</h6>
+                <div class="col-6 col-md-4 col-lg-2 mb-3 mb-lg-0">
+                  <img src="Images/blog11.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 mb-3 mb-lg-0">
+                  <img src="Images/blog2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 mb-3 mb-lg-0">
+                  <img src="Images/blog3.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 mb-3 mb-lg-0">
+                  <img src="Images/blog4.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 mb-3 mb-lg-0">
+                  <img src="Images/blog5.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 mb-3 mb-lg-0">
+                  <img src="Images/blog6.jpg" alt="" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="container-fluid blogSection my-4">
+        <section class="container">
+          <div class="row justify-content-center align-items-center px-3">
+            <div class="col-12 col-md-6">
+              <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000" data-aos-delay="500" data-aos-offset="0">
+                <img src="Images/blog8.jpg" alt="" class="img-fluid mb-3 mb-md-0">
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="blogDesc">
+                <h1 class="mb-4">Top 10 Living Room Color Combos for Budget-Friendly Makeovers in India</h1>
+                <p>Revitalizing your living room with a new paint job can breathe life into your hom…</p>
+                <div class="readBtnClass my-3">
+                  <a href="#" class=""><span>Read More</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="container-fluid blogSection my-4">
+        <section class="container">
+          <div class="row justify-content-center align-items-center px-3">
+            <div class="col-12 col-md-6">
+              <div class="blogDesc" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500" data-aos-offset="0">
+                <h1 class="mb-4">AI-Generated Furniture: A Glimpse into the future of design</h1>
+                <p>Revitalizing your living room with a new paint job can breathe life into your hom…</p>
+                <div class="readBtnClass my-3">
+                  <a href="#" class=""><span>Read More</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div>
+                <img src="Images/blog16.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="container-fluid reviewSection py-5 position-relative">
+        <section class="container">
+          <h2 class="mb-5 text-center">What They Say</h2>
+          <div class="row justify-content-center align-items-center pt-3">
+            <div class="col-12 col-md-6 col-xl-4 pb-5">
+              <div class="mainClass">
+                <img src="Images/user1.jpg" alt="" class="img-fluid">
+                <div class="reviewDesc">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam placeat cum officiis qui repudiandae iste voluptates quos fugiat recusandae eum totam eius, ut sunt et nostrum, autem consequatur at optio!</p>
+                  <h6>Stefanie Rashford</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 pb-5">
+              <div class="mainClass">
+                <img src="Images/user2.jpg" alt="" class="img-fluid">
+                <div class="reviewDesc">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam placeat cum officiis qui repudiandae iste voluptates quos fugiat recusandae eum totam eius, ut sunt et nostrum, autem consequatur at optio!</p>
+                  <h6>Stefanie Rashford</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 mb-5">
+              <div class="mainClass">
+                <img src="Images/user3.jpg" alt="" class="img-fluid">
+                <div class="reviewDesc">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam placeat cum officiis qui repudiandae iste voluptates quos fugiat recusandae eum totam eius, ut sunt et nostrum, autem consequatur at optio!</p>
+                  <h6>Stefanie Rashford</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <div class="container-fluid footerSection border-top border-bottom border-4 border-secondary py-5">
+        <div class="container">
+          <div class="row justify-content-center text-center text-md-start">
+            <div class="col-12 col-md-6 col-xl-3">
+              <ul class="list-unstyled">
+                <li><a class="navbar-brand" href="index.html"><img src="Images/Logo.jpg" alt="" class="img-fluid logoImg mb-5"></a></li>
+                <li><a href="#" class="mb-2 fs-6"><i class="fa fa-map-marker"></i> &nbsp;703, Jubilation Society, Wagholi, Pune</a></li>
+                <li><a href="tel:62274889767" class="mb-2 fs-6"><i class="fa fa-phone"></i> &nbsp;+62274889767</a></li>
+                <li><a href="mailto:homedecor@gmail.com" class="mb-2 fs-6"><i class="fa fa-envelope-o"></i> &nbsp;homedecor@gmail.com</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-6 col-xl-3">
+              <h3 class="text-white mt-3 mt-md-0 mb-3">Quick links</h3>
+              <ul class="footerLinks">
+                <li><a class="mb-2 fs-6" href="index.html">Home</a></li>
+                <li><a class="mb-2 fs-6" href="aboutUs.html">About Us</a></li>
+                <li><a class="mb-2 fs-6" href="services.html">Services</a></li>
+                <li><a class="mb-2 fs-6" href="blogs.html">Blogs</a></li>
+                <li><a class="mb-2 fs-6" href="contactUs.html">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-6 col-xl-3">
+              <h3 class="text-white mt-3 mt-md-0 mb-3">Our Services</h3>
+              <ul class="footerLinks">
+                <li><a class="mb-2 fs-6" href="services.html#livingRoom">Living Room</a></li>
+                <li><a class="mb-2 fs-6" href="services.html#kitchen">Kitchen</a></li>
+                <li><a class="mb-2 fs-6" href="services.html#bedroom">Bedroom</a></li>
+                <li><a class="mb-2 fs-6" href="services.html#itOffice">IT Offices</a></li>
+                <li><a class="mb-2 fs-6" href="services.html#restaurant">Restaurants & Cafe's</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+              <h3 class="text-white mt-3 mt-md-0 mb-3">Subscribe Us</h3>
+              <div class="section-content">
+                <h5>Stay Up to date With Us!</h5>
+                <div class="newsletter-form">
+                    <div>
+                      <input type="email" placeholder="Your Email Address">
+                    </div>
+                    <div class="my-3 quotationBtn">
+                      <a href="#"><span>Subscribe</span></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+              <!-- <div class="container mt-3">
+                <div class="row text-center justify-content-center">
+                  <div class="col-12 mb-3">
+                    <h5 class="text-light">Follow Us On</h5>
+                  </div>
+                  <div class="col-auto">
+                    <a href="https://www.facebook.com/">
+                      <img src="Images/facebook.avif" alt="Facebook" class="img-fluid" style="width: 40px;">
+                    </a>
+                    <a href="https://www.instagram.com/" class="ms-3">
+                      <img src="Images/instagram.avif" alt="Instagram" class="img-fluid" style="width: 40px;">
+                    </a>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="container py-3">
+          <p class="mb-0 fs-6 text-center">&copy; PerfectHomeDecor 2025 All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

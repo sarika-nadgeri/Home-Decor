@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&family=Quintessential&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="Images/Logo.jpg" sizes="128x128">
+  <title>Home Decorators</title>
+</head>
+
+<body>
+  <section class="container-fluid">
+    <!-- <header> -->
+      <div class="container-fluid bg-black py-1">
+        <div class="container-fluid px-3" id="topHeader">
+          <div class="row topHeaderClass align-items-center">
+            <div class="contactSection col-8">
+              <div class="row align-items-center">
+                <div class="col-12 col-md-4 col-xl-2">
+                  <a href="tel:62274889767" class="text-light"><i class="fa fa-phone"></i> &nbsp;+62274889767</a>
+                </div>
+                <div class="col-12 col-md-7 col-xl-4">
+                  <a href="mailto:homedecor@gmail.com" class="text-light"><i class="fa fa-envelope-o"></i> &nbsp;homedecor@gmail.com</a>
+                </div>
+              </div>
+            </div>
+            <div class="social-icons text-end col-4">
+              <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg bg-white shadow sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-3" href="index.html">
+            <img src="Images/Logo.jpg" alt="" class="img-fluid logoImg">
+          </a>
+
+          <!-- Toggle button for Offcanvas, will show on mobile/tablet -->
+          <button class="navbar-toggler me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu"
+            aria-controls="mobileMenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Offcanvas for Mobile/Tablet -->
+          <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="mobileMenu"
+            aria-labelledby="mobileMenuLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title text-white" id="mobileMenuLabel">Menu</h5>
+              <button type="button" class="btn text-white ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">
+                <i class="fa-solid fa-xmark fa-lg"></i>
+              </button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutUs.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blogs.html">Blogs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="contactUs.html">Contact Us</a>
+                </li>
+              </ul>
+
+              <!-- Simple search for mobile/tablet -->
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
+          </div>
+
+          <!-- Regular navbar for desktop (hidden on mobile/tablet) -->
+          <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutUs.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blogs.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contactUs.html">Contact Us</a>
+              </li>
+            </ul>
+
+            <!-- Animated search only on large screens -->
+            <div class="search-wrapper position-relative me-3">
+              <form class="search-form d-flex align-items-center" role="search">
+                <input class="form-control search-input" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success search-btn" type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- </header> -->
+    <main>
+      <section class="container-fluid contactUsSection">
+        <div class="container" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="300">
+          <h1>Contact US</h1>
+          <h4>Get in touch with our designers!</h4>
+        </div>
+      </section>
+      <section class="container-fluid py-5">
+        <div class="container">
+          <div class="row" id="contactUsSection">
+            <div class="col-12 col-md-6">
+              <h5>We'd love to hear from you</h5>
+              <h1>Meet a designer</h1>
+              <p class="mt-4">Contact us today and take the first step towards realizing your dream interior. Our team
+                is ready to provide you with a free consultation, tailored to your unique style and preferences. Let’s
+                embark on this design journey together!</p>
+              <div class="row mt-5">
+                <div class="col-12 col-xl-8">
+                  <h6 class="mb-4 fs-5">Reach us through</h6>
+                  <a href="#" class="d-block mb-2 fs-6 text-light"><i class="fa fa-map-marker"></i> &nbsp;703,
+                    Jubilation Society, Wagholi, Pune</a>
+                  <a href="tel:62274889767" class="d-block mb-2 fs-6 text-light"><i class="fa fa-phone"></i>
+                    &nbsp;+62274889767</a>
+                  <a href="mailto:homedecor@gmail.com" class="d-block mb-2 fs-6 text-light"><i
+                      class="fa fa-envelope-o"></i> &nbsp;homedecor@gmail.com</a>
+                </div>
+                <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+                  <h6 class="mb-4 fs-5">Social Networks</h6>
+                  <a href="https://www.facebook.com/">
+                    <img src="Images/facebook.avif" alt="Facebook" class="img-fluid" style="width: 30px;">
+                  </a>
+                  <a href="https://www.instagram.com/" class="ms-3">
+                    <img src="Images/instagram.avif" alt="Instagram" class="img-fluid" style="width: 30px;">
+                  </a>
+                  <a href="https://www.google.com/" class="ms-3">
+                    <img src="Images/google.svg" alt="Google" class="img-fluid" style="width: 30px;">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 mt-5 mt-md-0">
+              <h3 class="text-center">Send us a Message</h3>
+              <form>
+                <div class="row justify-content-md-center">
+                  <div class="col-12 col-md-10">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                  </div>
+                  <div class="col-12 col-md-10">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                  </div>
+                  <div class="col-12 col-md-10">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                  </div>
+                  <div class="col-12 col-md-10">
+                    <div class="submitBtn">
+                      <input type="submit" value="Submit">
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container-fluid footerSection border-top border-bottom border-4 border-secondary py-5">
+        <div class="container">
+          <div class="row justify-content-center text-center text-md-start">
+            <div class="col-12 col-md-6 col-xl-3">
+              <ul class="list-unstyled">
+                <li><a class="navbar-brand" href="index.html"><img src="Images/Logo.jpg" alt="" class="img-fluid logoImg mb-5"></a></li>
+                <li><a href="#" class="mb-2 fs-6"><i class="fa fa-map-marker"></i> &nbsp;703, Jubilation Society, Wagholi, Pune</a></li>
+                <li><a href="tel:62274889767" class="mb-2 fs-6"><i class="fa fa-phone"></i> &nbsp;+62274889767</a></li>
+                <li><a href="mailto:homedecor@gmail.com" class="mb-2 fs-6"><i class="fa fa-envelope-o"></i> &nbsp;homedecor@gmail.com</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-6 col-xl-3">
+              <h3 class="text-white mt-3 mt-md-0 mb-3">Quick links</h3>
+              <ul class="footerLinks">
+                <li><a class="mb-2 fs-6" href="index.html">Home</a></li>
+                <li><a class="mb-2 fs-6" href="aboutUs.html">About Us</a></li>
+                <li><a class="mb-2 fs-6" href="services.html">Services</a></li>
+                <li><a class="mb-2 fs-6" href="blogs.html">Blogs</a></li>
+                <li><a class="mb-2 fs-6" href="contactUs.html">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-6 col-xl-3">
+              <h3 class="text-white mt-3 mt-md-0 mb-3">Our Services</h3>
+              <ul class="footerLinks">
+                <li><a class="mb-2 fs-6" href="services.html#livingRoom">Living Room</a></li>
+                <li><a class="mb-2 fs-6" href="services.html#kitchen">Kitchen</a></li>
+                <li><a class="mb-2 fs-6" href="services.html#bedroom">Bedroom</a></li>
+                <li><a class="mb-2 fs-6" href="services.html#itOffice">IT Offices</a></li>
+                <li><a class="mb-2 fs-6" href="services.html#restaurant">Restaurants & Cafe's</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+              <h3 class="text-white mt-3 mt-md-0 mb-3">Subscribe Us</h3>
+              <div class="section-content">
+                <h5>Stay Up to date With Us!</h5>
+                <div class="newsletter-form">
+                    <div>
+                      <input type="email" placeholder="Your Email Address">
+                    </div>
+                    <div class="my-3 quotationBtn">
+                      <a href="#"><span>Subscribe</span></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+              <!-- <div class="container mt-3">
+                <div class="row text-center justify-content-center">
+                  <div class="col-12 mb-3">
+                    <h5 class="text-light">Follow Us On</h5>
+                  </div>
+                  <div class="col-auto">
+                    <a href="https://www.facebook.com/">
+                      <img src="Images/facebook.avif" alt="Facebook" class="img-fluid" style="width: 40px;">
+                    </a>
+                    <a href="https://www.instagram.com/" class="ms-3">
+                      <img src="Images/instagram.avif" alt="Instagram" class="img-fluid" style="width: 40px;">
+                    </a>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="container py-3">
+          <p class="mb-0 fs-6 text-center">&copy; PerfectHomeDecor 2025 All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
